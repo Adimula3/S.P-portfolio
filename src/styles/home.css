@@ -1,0 +1,405 @@
+.Home {
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.85),rgba(0, 0, 0, 0.85)), url('../assets/creative-process-development-ideas-diagram.jpg');
+    background-size: cover;
+}
+@media (min-width: 1365px) {
+    .Home {
+        background-attachment: fixed;
+    }
+}
+.home-content{
+    color: #FFFFFF;
+    margin: 160px 0 0 150px;
+}
+.home-content h1 {
+    font-size: 100px;
+    line-height: 100px;
+    width: 750px;
+}
+.home-content p {
+    margin: 40px 0 0 50px;
+    font-size: 25px;
+    width: 500px;
+}
+.home-content b {
+    color: #6d8aac;
+    animation-duration: 2s;
+}
+.home-content .hme {
+    color: #6d8aac;
+    width: 50px;
+    padding-top: 50px;
+    margin-top: 60px;
+    margin-left: 40px;
+    height: 50px;
+    border-top:  2px solid #6d8aac;
+}
+@media all and (max-width: 480px) { 
+    .Home {
+        height: 70vh;
+    }
+    .home-content{
+        margin: 90px 0 0 30px;
+    }
+    .home-content h1 {
+        font-size: 50px;
+        line-height: 60px;
+        width: 350px;
+    }
+    .hm {
+        flex-direction: column;
+        margin-top: 0;
+        padding-top: 0;
+    }
+    .home-content p {
+        margin: 0 0 0 0;
+        font-size: 18px;
+        width: 300px;
+        padding-top: 0;
+    }
+    .home-content .hme {
+        
+        width: 50px;
+        padding-top: 0;
+        margin-top: 30px;
+        margin-left: 0;
+        border-top:  2px solid #6d8aac;
+        margin-bottom: 0;
+    }
+    .content {
+        margin:30px 0 0 20px!important;
+    }
+    .content h5 {
+        font-size: 15px!important;
+        padding-bottom: 20px;
+    }
+    .content h2 {
+        width: 360px!important;
+        font-size: 30px!important;
+        line-height: 35px!important;
+    }
+    .content p {
+        margin: 30px 0 0 0!important;
+        font-size: 19px!important;
+        width: 360px!important;
+        text-align: left;
+    }
+    .portfolio {
+        margin: 50px 0 0 0!important;
+        justify-content: center;
+    }
+    .portfolio h1 {
+        font-size: 35px!important;
+        line-height: 40px!important;
+    }
+    .portfolio .nav {
+        margin-left: 0!important;
+        display: flex!important;
+        flex-direction: row!important;
+        width: 380px;
+        margin-top: 40px;
+    }
+    .portfolio .nav .nav-link {
+        font-size: 15px;
+        line-height: 0!important;
+        margin-left: 20px!important;  
+    }
+    .portfolio .p-nav {
+        display: flex;
+        flex-direction: column;
+    }
+    .portfolio .row {
+        display: flex!important;
+        flex-direction: column!important;
+        padding: 0!important;  
+    }
+    .portfolio .column img {
+        vertical-align: middle;
+        width: 350px!important;
+      }
+      .accord {
+        display: none!important;
+        margin: 50px 0 0 0!important;
+        height: 600px;
+        padding: 0 0 0 0!important;
+    }
+    .about {
+        padding: 50px 0 0 20px!important;
+    }
+    .about .abt {
+        display: flex!important;
+        flex-direction: column!important;
+    }
+    .about .box7 {
+        width: 350px!important;
+    }
+    .about h2 {
+        width: 360px!important;
+        margin-top: 30px!important;
+    }
+    .about p {
+        width: 360px!important;
+        margin-top: 30px!important;
+        margin-right: 0!important;
+        width: 360px;
+    }
+    hr {
+        width: 360px!important;
+    }
+
+.contact {
+    height: 500px!important;
+    padding: 50px 0 0 20px!important;
+}
+.contact h1 {
+    font-size: 28px!important;
+    line-height: 40px!important;
+}
+.contact p {
+    font-size: 20px!important;
+    width: 250px;
+}
+.contact .address {
+    margin-top: 50px!important;
+    display: flex!important;
+    flex-direction: column!important;
+}
+.contact .address h3 {
+    font-size: 20px;
+    color: #6d8aac;
+}
+.contact .address p {
+    width: 360px!important;
+    font-size: 18px!important;
+}
+.contact .address .socials {
+    margin-left: 0!important;
+}
+.fa-brands {
+    color: #4F4F4F!important;
+    font-size: 30px;
+    padding: 10px 10px;
+}
+.fa-brands:hover {
+    color: #FFFFFF!important;
+
+}
+    
+}
+
+
+
+.content {
+    margin: 50px 0 0 150px;
+}
+.content h5 {
+    font-size: 18px;
+    color: #6d8aac;
+    font-weight: 700;
+    padding-bottom: 20px;
+}
+.content h2 {
+    width: 950px;
+    font-size: 50px;
+    line-height: 65px;
+}
+.content p {
+    margin: 50px 0 0 0;
+    font-size: 23px;
+    width: 900px;
+}
+
+
+
+
+.portfolio {
+    margin: 50px 0 0 80px;
+    justify-content: center;
+}
+.portfolio h1 {
+    font-size: 45px;
+    line-height: 60px;
+}
+.portfolio b {
+    color: #6d8aac;
+}
+.portfolio .nav {
+    margin-left: 200px;
+}
+.portfolio .nav .nav-link {
+    color: #101010;
+}
+.portfolio .nav .nav-link:hover {
+    color: #6d8aac;
+}
+hr {
+    width: 1000px;
+    height: 50px;
+}
+
+.portfolio .row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;  
+}
+.portfolio .column {
+    flex: 25%;
+    max-width: 27%;
+    padding: 0;
+}
+.portfolio .column img {
+    vertical-align: middle;
+    width: 110%;
+  }
+  .container {
+    position: relative;
+  }
+  
+  .middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 15%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  .bottom {
+    transition: .5s ease;
+    position: absolute;
+    top: 80%;
+    left: 10%;
+    display: none;
+  }
+  .container:hover .bottom {
+    display: block;
+  }
+  .bottom h5 {
+    color: #000000;
+    font-size: 17px;
+    margin-bottom: 8px;
+    padding-bottom: 0;
+  }
+  .bottom p {
+    margin-top: 0;
+    padding-top: 0;
+    font-size: 15px;
+  }
+  .middle .p-hr {
+    color: #101010;
+    width: 60px;
+
+  }
+  .container:hover img {
+    opacity: 0.3;
+  }
+  
+  .container:hover .middle {
+    opacity: 1;
+  }
+  
+  .text {
+    background-color: #6d8aac;
+    color: white;
+    font-size: 16px;
+    padding: 5px 10px;
+  }
+
+
+
+.accord {
+    margin: 200px 0 0 0;
+    height: 600px;
+    background: #000000;
+    color: #FFFFFF;
+    padding: 0 0 0 120px;
+}
+.accord hr {
+    width: 1120px;
+}
+.accord-msg {
+    gap: 250px;
+}
+.accord .accordion-content {
+    width: 800px;
+    text-align: center;
+}
+.accord .first {
+    padding-top: 70px;
+}
+
+.accord .second p{
+    padding-left: 70px;
+}
+.accord .btn {
+    background: transparent!important;
+    border: none;
+    font-size: 35px;
+}
+
+
+
+.about {
+    padding: 100px 0 0 120px;
+}
+.about .box7 {
+    width: 306px;
+    height: 439px;
+    background: #4F4F4F;
+}
+.about h2 {
+    width: 400px;
+    margin-top: 50px;
+    font-size: 36px;
+}
+.about p {
+    width: 800px;
+    margin-top: 50px;
+    font-size: 16px;
+    line-height: 35px;
+    margin-right: 50px;
+}
+
+
+
+
+.contact {
+    background: #000000;
+    color: #FFFFFF;
+    height: 600px;
+    padding: 100px 0 0 120px;
+}
+.contact h1 {
+    font-size: 50px;
+    line-height: 60px;
+}
+.contact p {
+    color: #4F4F4F;
+    font-size: 30px;
+}
+.contact .address {
+    margin-top: 80px;
+}
+.contact .address h3 {
+    font-size: 20px;
+    color: #6d8aac;
+}
+.contact .address p {
+    width: 400px;
+    font-size: 28px;
+}
+.contact .address .socials {
+    margin-left: 150px;
+}
+.fa-brands {
+    color: #4F4F4F!important;
+    font-size: 30px;
+    padding: 10px 10px;
+}
+.fa-brands:hover {
+    color: #FFFFFF!important;
+
+}
