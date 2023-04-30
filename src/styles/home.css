@@ -38,7 +38,7 @@
 }
 @media all and (max-width: 480px) { 
     .Home {
-        height: 70vh;
+        height: 75vh;
     }
     .home-content{
         margin: 90px 0 0 30px;
@@ -118,6 +118,27 @@
     .portfolio .column img {
         vertical-align: middle;
         width: 350px!important;
+      }
+      .middle {
+        top: 15%!important;
+        left: 70%!important;
+      }
+      .text {
+        font-size: 12px!important;
+        padding: 2px 30px!important;
+      }
+      .bottom {
+        top: 80%;
+        left: 30%!important;
+      }
+      .bottom h5 {
+        color: #000000;
+        font-size: 14px!important;
+        margin-bottom: 0!important;
+        padding-bottom: 0;
+      }
+      .bottom p {
+        font-size: 12px!important;
       }
       .accord {
         display: none!important;
