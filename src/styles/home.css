@@ -28,7 +28,8 @@
 }
 .home-content p {
     margin: 40px 0 0 50px;
-    font-size: 25px;
+    font-size: 20px;
+    line-height: 29px;
     width: 500px;
     font-family: 'Nunito', sans-serif;
 }
@@ -127,14 +128,14 @@ height: 100vh;
 
 @media all and (max-width: 480px) { 
     .Home {
-        height: 65vh;
+        height: 72vh;
     }
     .pixar3 {
-      height: 65vh;
+      height: 72vh;
     }
     .home-content{
-        margin: 140px 0 0 30px;
-        animation: none;
+        margin: 170px 0 0 30px;
+        animation: none!important;
     }
     .home-content h1 {
         font-size: 50px;
@@ -184,7 +185,7 @@ height: 100vh;
         text-align: left;
     }
     .portfolio {
-      margin: 100px 0 0 0!important;
+      margin: 60px 0 0 0!important;
       justify-content: center;
       padding-left: 0!important;
   }
@@ -263,15 +264,22 @@ height: 100vh;
     }
     .about p {
         width: 360px!important;
-        margin-top: 30px!important;
+        margin-top: 20px!important;
         margin-right: 0!important;
         width: 360px;
     }
+    .about .abt-msg {
+      margin-top: 0!important;
+  }
+  
     .abt-info .btn-primary {
        padding-bottom: 20px;
     }
     .about .abt-info .btn {
       margin-bottom: 50px;
+    }
+    .abt-img {
+      display: none;
     }
     hr {
         width: 360px!important;
@@ -824,7 +832,7 @@ hr {
 }
 .contact .address h3 {
     font-size: 20px;
-    color: #6d8aac;
+    color: #FFFFFF;
 }
 .contact .address p {
     width: 400px;

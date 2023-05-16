@@ -115,7 +115,7 @@ const Home = () => {
                 <button className='btn btn-primary'>HIRE ME</button>
             </div>
             </div>
-            <div className=''>
+            <div className='abt-img'>
                 <div className='box7'></div>
             </div>
             </div> 
@@ -258,35 +258,7 @@ const Home = () => {
         <div className='testimonies'>
             
         </div>
-        <div className='read'>
-            <h1>Read on Medium</h1>
-            <div className='read-content'>
-                <div className='rd d-flex'>
-                    <div>
-                    <span>May 28, 2023</span>
-                    <p>Front-end Developer Demands today</p>
-                    </div>
-                    <span className='mins'>1 MINS READ</span>
-                </div>
-                <hr></hr>
-                <div className='rd d-flex'>
-                    <div>
-                    <span>May 28, 2023</span>
-                    <p>Why Front-end Developer So Important</p>
-                    </div>
-                    <span className='mins'>1 MINS READ</span>
-                </div>
-                <hr></hr>
-                <div className='rd d-flex'>
-                    <div>
-                    <span>May 28, 2023</span>
-                    <p>Why Front-end Developer So Important</p>
-                    </div>
-                    <span className='mins'>1 MINS READ</span>
-                </div>
-                <hr></hr>
-            </div>
-        </div>
+       
         <div className='contacts'>
             <div className='container'>
                 <div className='row'>
