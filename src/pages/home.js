@@ -122,7 +122,7 @@ const Home = () => {
         </div>
         <div className='portfolio'>
                      <div className='p-nav d-flex'>
-                        <h1><b>My</b> portfolio</h1>
+                        <h1><b>My</b> projects</h1>
                         <ul class="nav">
                            <li class="nav-item">
                               <a class="nav-link active" aria-current="page" href="#">All</a>
@@ -216,7 +216,6 @@ const Home = () => {
         <div className='services'>
             <div className='row'>
                 <div className='col-lg-6'>
-                    <h1>My services</h1>
                     <p className='p-skills'>Here Are Some of My Skills</p>
                     <div className='row'>
                         <div className='col-md-6'>
