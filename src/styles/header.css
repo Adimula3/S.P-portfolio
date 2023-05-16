@@ -1,5 +1,5 @@
 .navbar {
-    background: rgba(0, 0, 0, 0.48);
+    background: transparent;
     color: #FFFFFF;
     height: 100px;
 }
@@ -10,6 +10,8 @@
 .navbar-brand {
     color: #FFFFFF;
     padding-left: 50px;
+    font-family: 'Nunito';
+    font-weight: 400;
 }
 .navbar-brand:hover {
     color: #FFFFFF;
@@ -19,7 +21,7 @@
 }
 .nav-link {
     color: #F5F5F5;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Nunito';
     font-style: normal;
     font-weight: 400;
     font-size: 15px;
@@ -48,6 +50,7 @@
         padding-left: 0;
         display: flex;
         flex-direction: row;
+
      }
      .nav-link {
         margin-left: 10px; 

@@ -1,0 +1,38 @@
+
+.design {
+    padding: 0 0 0 100px;
+}
+.design .workpage-image {
+    width: 500px;
+    height: 500px;
+}
+.design h1 {
+    padding-top: 150px;
+    font-size: 40px;
+    font-family: 'Nunito', sans-serif;
+}
+.design-top  {
+   width:  500px;
+   font-family: 'Nunito', sans-serif;
+}
+.design-bottom {
+    padding: 0 0 0 30px;
+    font-family: 'Nunito', sans-serif;
+}
+.design-bottom .d-msg {
+    margin-top: 50px;
+    width: 300px;
+}
+.design-bottom .d-w {
+    margin-top: 40px;
+}
+.design-bottom ul {
+    text-decoration: none;
+}
+.design-bottom ul li {
+    text-decoration: none;
+    text-align: left;
+}
+.design-bottom .btn {
+    font-size: 13px;
+}
