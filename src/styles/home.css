@@ -569,6 +569,12 @@ hr {
     width: 110%;
    
   }
+  .portfolio .column .one {
+  
+  }
+  .portfolio .column .two {
+    
+  }
   .container {
     position: relative;
   }
@@ -665,7 +671,7 @@ hr {
 .about {
     padding: 100px 0 0 120px;
 }
-.about .box7 {
+.about .about-image {
     width: 306px;
     height: 439px;
     background: #4F4F4F;
