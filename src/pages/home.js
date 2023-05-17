@@ -1,11 +1,11 @@
 import Header from '../component/header';
 import '../styles/home.css'
 import img1 from '../assets/work-img2.jpeg';
-import img2 from '../assets/azimg2.jpeg';
-import img3 from '../assets/azimg3.jpeg';
-import img4 from '../assets/azimg4.jpeg';
+import img2 from '../assets/print-work2.jpeg';
+import img3 from '../assets/work-img1.jpeg';
+import img4 from '../assets/print-work1.jpeg';
 import img5 from '../assets/pamino-portfolio.jpeg';
-import img6 from '../assets/work-img1.jpeg';
+import img6 from '../assets/print-work4.jpeg';
 import profile from '../assets/az-image.jpeg';
 import hand from '../assets/az-hand-og.jpeg';
 import { useState } from 'react';
@@ -144,7 +144,7 @@ const Home = () => {
                         <div className='row p-row'>
                             <div className='column'>
                                 <div className='container'>
-                                   <img src={img1}className="image one"/>
+                                   <img src={img1}className="image"/>
                                    <div class="middle d-flex">
                                    
                                       <div class="text">Project Link</div>
@@ -190,7 +190,7 @@ const Home = () => {
                             </div>
                             <div className='column'>
                                 <div className='container'>
-                                   <img src={img3}className="image"/>
+                                   <img src={img3}className="image one"/>
                                    <div class="middle">
                                       <div class="text">Project Link</div>
                                    </div>
@@ -200,7 +200,7 @@ const Home = () => {
                                    </div>
                                 </div>
                                 <div className='container'>
-                                   <img src={img6}className="image two"/>
+                                   <img src={img6} className="image two"/>
                                    <div class="middle">
                                       <div class="text">Project Link</div>
                                    </div>

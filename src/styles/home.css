@@ -570,10 +570,10 @@ hr {
    
   }
   .portfolio .column .one {
-  
+    height: 527px;
   }
   .portfolio .column .two {
-    
+    height: 345px; 
   }
   .container {
     position: relative;
