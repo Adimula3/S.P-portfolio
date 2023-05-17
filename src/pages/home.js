@@ -11,6 +11,7 @@ import hand from '../assets/az-hand-og.jpeg';
 import { useState } from 'react';
 import { useInView } from 'react-intersection-observer';
 import { motion } from "framer-motion";
+
 const Home = () => {
 
     const [isOpen, setIsOpen] = useState(false);
@@ -35,6 +36,7 @@ const Home = () => {
 
       const animate = inView ? 'animate' : '';
 
+      
     return (
         <>
      <div className='pixar3'>
@@ -82,12 +84,12 @@ const Home = () => {
                <span>designs.</span>              
             </h2>
             
-            <p>Welcome to our world of design-driven individuals who are passionate about creating stunning Graphic/UI and web designs that will help your business stand out.
+            <motion.p>Welcome to our world of design-driven individuals who are passionate about creating stunning Graphic/UI and web designs that will help your business stand out.
             We are a group of talented professionals who are dedicated to crafting unique and visually appealing designs that will make your brand shine in today's competitive digital landscape.
             Our design process is collaborative and transparent, and we involve our clients at every stage to ensure that their feedback and ideas are incorporated into the final design.
             We pride ourselves on delivering high-quality designs on time and within budget.
             If you are looking for a team of talented and passionate designers who can help your business stand out in today's crowded digital space, look no further. Contact us today to learn more about how we can help you achieve your design goals and take your brand to the next level.
-            </p>
+            </motion.p>
         </div>
         <div className='about'>
             <div className='abt d-flex'>

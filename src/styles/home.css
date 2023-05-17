@@ -134,8 +134,9 @@ height: 100vh;
       height: 72vh;
     }
     .home-content{
-        margin: 170px 0 0 30px;
+        margin: 0 0 0 0;
         animation: none!important;
+        padding: 170px 30px;
     }
     .home-content h1 {
         font-size: 50px;
@@ -567,6 +568,7 @@ hr {
 .portfolio .column .image {
     vertical-align: middle;
     width: 110%;
+     transition: 0.5s all ease-in-out;
    
   }
   .portfolio .column .one {
@@ -618,6 +620,7 @@ hr {
     width: 60px;
 
   }
+ 
   .container:hover .image {
     opacity: 0.3;
   }
@@ -869,7 +872,6 @@ hr {
   font-size: 3.5rem;
   font-weight: 700; 
   font-family: 'Nunito', sans-serif;
-  color: #6d8aac;
 }
 .form {
   width: 600px;
