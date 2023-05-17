@@ -128,20 +128,21 @@ height: 100vh;
 
 @media all and (max-width: 480px) { 
     .Home {
-        height: 72vh;
+        height: 80vh;
     }
     .pixar3 {
-      height: 72vh;
+      height: 80vh;
     }
     .home-content{
         margin: 0 0 0 0;
         animation: none!important;
-        padding: 170px 30px;
+        padding: 200px 20px;
     }
     .home-content h1 {
         font-size: 50px;
         line-height: 60px;
         width: 350px;
+        padding: 8px;
         
     }
    .mozart-inner {
@@ -159,7 +160,6 @@ height: 100vh;
         padding-top: 0;
     }
     .home-content .hme {
-        
         width: 50px;
         padding-top: 0;
         margin-top: 30px;
@@ -305,7 +305,6 @@ height: 100vh;
 }
 .contact .address h3 {
     font-size: 20px;
-    color: #6d8aac;
 }
 .contact .address p {
     width: 360px!important;
@@ -387,6 +386,9 @@ height: 100vh;
 .contacts-msg {
   padding-top: 0!important;
   display: none;
+}
+.contacts h2 {
+  color: #101010;
 }
 
 }
@@ -620,6 +622,10 @@ hr {
     width: 60px;
 
   }
+  .middle a {
+    text-decoration: none;
+    color: #FFFFFF;
+  }
  
   .container:hover .image {
     opacity: 0.3;
@@ -627,6 +633,7 @@ hr {
   
   .container:hover .middle {
     opacity: 1;
+    cursor: pointer;
   }
   
   .text {

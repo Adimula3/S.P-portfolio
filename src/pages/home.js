@@ -159,7 +159,7 @@ const Home = () => {
                                 <div className='container'>
                                    <img src={img4} className="image"/>
                                    <div className="middle">
-                                      <div className="text">Project Link</div>
+                                      <div className="text"><a href='https://www.instagram.com/p/CrjluJDNCFz/?igshid=NTc4MTIwNjQ2YQ=='>Project Link</a></div>
                                    </div>
                                    <div className="bottom">
                                       <h5>Moto Padi</h5>
@@ -172,7 +172,7 @@ const Home = () => {
                                 <div className='container'>
                                    <img src={img2}className="image"/>
                                    <div class="middle">
-                                      <div class="text">Project Link</div>
+                                      <div class="text"><a href='https://www.instagram.com/p/CqTt_8JNuT2/?igshid=NTc4MTIwNjQ2YQ=='>Project Link</a></div>
                                    </div>
                                    <div className="bottom">
                                       <h5>Queen Bee</h5>
@@ -182,7 +182,7 @@ const Home = () => {
                                 <div className='container'>
                                    <img src={img5}className="image  one"/>
                                    <div class="middle">
-                                      <div class="text">Project Link</div>
+                                      <div class="text"><a href='https://kolawoleolayinka.tech/'>Project Link</a></div>
                                    </div>
                                    <div className="bottom">
                                       <h5>Pamino Portfolio</h5>
@@ -194,7 +194,7 @@ const Home = () => {
                                 <div className='container'>
                                    <img src={img3}className="image one"/>
                                    <div class="middle">
-                                      <div class="text">Project Link</div>
+                                      <div class="text"><a href='https://audiphile19.vercel.app/'>Project Link</a></div>
                                    </div>
                                    <div className="bottom">
                                       <h5>HeadPhones</h5>
@@ -204,7 +204,7 @@ const Home = () => {
                                 <div className='container'>
                                    <img src={img6} className="image two"/>
                                    <div class="middle">
-                                      <div class="text">Project Link</div>
+                                      <div class="text"><a href='https://www.instagram.com/p/CnNf0aUNVHT/?igshid=NTc4MTIwNjQ2YQ=='>Project Link</a></div>
                                    </div>
                                    <div className="bottom">
                                       <h5>LRS Family</h5>
