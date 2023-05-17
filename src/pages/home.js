@@ -150,8 +150,8 @@ const Home = () => {
                                       <div class="text">Project Link</div>
                                    </div>
                                    <div className="bottom">
-                                      <h5>Arcade</h5>
-                                      <p>Graphic Design</p>
+                                      <h5>My QrCard</h5>
+                                      <p>Web Design</p>
                                    </div>
                                 </div>
                                 <div className='container'>
@@ -160,8 +160,8 @@ const Home = () => {
                                       <div className="text">Project Link</div>
                                    </div>
                                    <div className="bottom">
-                                      <h5>Arcade</h5>
-                                      <p>Web Design</p>
+                                      <h5>Moto Padi</h5>
+                                      <p>Brading & Visual Identity</p>
                                    </div>
                                 </div>
                               
@@ -173,8 +173,8 @@ const Home = () => {
                                       <div class="text">Project Link</div>
                                    </div>
                                    <div className="bottom">
-                                      <h5>Arcade</h5>
-                                      <p>UI/UX</p>
+                                      <h5>Queen Bee</h5>
+                                      <p>Brading & Visual Identity</p>
                                    </div>
                                 </div>
                                 <div className='container'>
@@ -183,7 +183,7 @@ const Home = () => {
                                       <div class="text">Project Link</div>
                                    </div>
                                    <div className="bottom">
-                                      <h5>Arcade</h5>
+                                      <h5>Pamino Portfolio</h5>
                                       <p>Web Design</p>
                                    </div>
                                 </div>
@@ -195,7 +195,7 @@ const Home = () => {
                                       <div class="text">Project Link</div>
                                    </div>
                                    <div className="bottom">
-                                      <h5>Arcade</h5>
+                                      <h5>HeadPhones</h5>
                                       <p>Web Design</p>
                                    </div>
                                 </div>
@@ -205,8 +205,8 @@ const Home = () => {
                                       <div class="text">Project Link</div>
                                    </div>
                                    <div className="bottom">
-                                      <h5>Arcade</h5>
-                                      <p>Web Design</p>
+                                      <h5>LRS Family</h5>
+                                      <p>Print Design</p>
                                    </div>
                                 </div>
                             </div>
