@@ -98,7 +98,7 @@ const Home = () => {
 
           </div>
             <p className='abt-msg'>Hey there! Thanks for visiting my website.I am a creative professional
-             with a diverse skillset. As a graphic designer, , Google Certified Project Manager, web developer,
+             with a diverse skillset. As a graphic designer, Google Certified Project Manager, web developer,
               I bring a unique perspective to every project. I have a passion for creating visually stunning 
               designs and intuitive user experiences that engage and delight users. With my technical skills
                and artistic flair, I am committed to delivering innovative solutions that exceed expectations.
@@ -305,7 +305,7 @@ const Home = () => {
        
         <div className='contact'>
             <h1>hello@teepixxel-creation.com</h1>
-            <p>+(234) 813 362 2414 / +(234) 905 266 2414</p>
+            <p>+(234) 813 362 9151</p>
             <div className='address d-flex'>
                 <div>
                     <h3>/ WHERE TO FIND US</h3>
