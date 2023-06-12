@@ -63,7 +63,7 @@ const Home = () => {
      </div>   
        
         <div className='content'>
-            
+            <h5>/ WHO WE ARE</h5>
             <motion.p>Tee Pixxel Creation is one of Nigeria’s most innovative Printing and Branding 
                 Company based in Abuja, Nigeria; duly registered with CAC as with (BN 6992826) Our 
                 designs are brilliant and our prints, very exclusive. We offer full range of printing 
@@ -238,6 +238,13 @@ const Home = () => {
                                 <li>Gazebo Banner</li>
                                 <li>Flag Banner </li>
                             </ul>
+                        </div>
+                        <div className='col-md-6'>
+                            <p className='s-title'>4 - CORPORATE AND GIFT ITEMS  </p>
+                            <p className='s-title'>5 - GENERAL CONTRACT </p>
+                            <p className='s-title'>6 - WEB DESIGN </p>
+                            
+                          
                         </div>
                     </div>
                 </div>
