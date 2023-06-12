@@ -1,12 +1,12 @@
 import Header from '../component/header';
 import '../styles/home.css'
-import img1 from '../assets/work-img2.jpeg';
+import img1 from '../assets/print-7.jpeg';
 import img2 from '../assets/print-work2.jpeg';
-import img3 from '../assets/work-img1.jpeg';
-import img4 from '../assets/print-work1.jpeg';
-import img5 from '../assets/pamino-portfolio.jpeg';
+import img3 from '../assets/print-8.jpeg';
+import img4 from '../assets/print-9.jpeg';
+import img5 from '../assets/print-10.jpeg';
 import img6 from '../assets/print-work4.jpeg';
-import profile from '../assets/az-image.jpeg';
+import profile from '../assets/s.p-bio.jpeg';
 import hand from '../assets/Designer.png';
 import { useState } from 'react';
 import { useInView } from 'react-intersection-observer';
@@ -63,26 +63,6 @@ const Home = () => {
      </div>   
        
         <div className='content'>
-            <h5>/  WHO WE ARE</h5>
-            <h2 ref={ref}
-          className={`animated-heading ${animate}`}>
-               <span>We</span>
-               <span>are</span>
-               <span>a</span>
-               <span>group</span>
-               <span>of</span>
-               <span>design</span>
-               <span>driven</span>
-               <span>individuals</span>
-               <span>passionate</span>
-               <span>about</span>
-               <span>creating</span>
-               <span>beautiful</span>
-               <span>Graphic/UI</span>
-               <span>and</span>
-               <span>web</span>
-               <span>designs.</span>              
-            </h2>
             
             <motion.p>Tee Pixxel Creation is one of Nigeria’s most innovative Printing and Branding 
                 Company based in Abuja, Nigeria; duly registered with CAC as with (BN 6992826) Our 
@@ -95,13 +75,12 @@ const Home = () => {
                 If you are looking for a team of talented and passionate designers who can help your business stand out
                 in today's crowded digital space, look no further. Contact us today to learn more about how we can 
                 help you achieve your design goals and take your brand to the next level.
-
-                Our project timeline is as important to us as our delivering excellence in print.  
+            </motion.p>
+            <p className='c-p2'>Our project timeline is as important to us as our delivering excellence in print.  
                 From the design and print of Business Cards, Corporate Stationary, Display Banners, 
                 Signs and Displays, Stamps and Seals, Marketing Materials to the Branding of Vehicles, 
                 Clothing, Gifts and Souvenirs, we provide quality finishing using our cutting-edge printing
-                 technology. 
-            </motion.p>
+                 technology.  </p> 
         </div>
         <div className='about'>
             <div className='abt d-flex'>
@@ -118,13 +97,12 @@ const Home = () => {
          </div>
 
           </div>
-            <p className='abt-msg'>Hey there! Thanks for visiting my website. My name is Azeez, and I am a creative professional with a diverse skillset. As a graphic designer,
-                 UI/UX specialist, web developer, and computer science graduate, 
-                 I bring a unique perspective to every project. I have a passion 
-                 for creating visually stunning designs and intuitive user experiences that
-                  engage and delight users. With my technical skills and artistic flair,
-                   I am committed to delivering innovative solutions that exceed expectations. 
-                   I'm excited to connect with you and explore how we can work together to bring your ideas to life.
+            <p className='abt-msg'>Hey there! Thanks for visiting my website.I am a creative professional
+             with a diverse skillset. As a graphic designer, , Google Certified Project Manager, web developer,
+              I bring a unique perspective to every project. I have a passion for creating visually stunning 
+              designs and intuitive user experiences that engage and delight users. With my technical skills
+               and artistic flair, I am committed to delivering innovative solutions that exceed expectations.
+                I'm excited to connect with you and explore how we can work together to bring your ideas to life.
             </p>
             <div className='abt-info d-flex'>
                 <button className='btn btn-primary'>HIRE ME</button>
@@ -146,7 +124,7 @@ const Home = () => {
                               <a class="nav-link" href="#">Graphic design</a>
                            </li>
                            <li class="nav-item">
-                              <a class="nav-link" href="#">Web design</a>
+                              <a class="nav-link" href="#">Print Design</a>
                            </li>
                            <li class="nav-item">
                               <a class="nav-link" href="#">Branding</a>
@@ -165,7 +143,7 @@ const Home = () => {
                                    </div>
                                    <div className="bottom">
                                       <h5>My QrCard</h5>
-                                      <p>Web Design</p>
+                                      <p>Print Design</p>
                                    </div>
                                 </div>
                                 <div className='container'>
@@ -198,7 +176,7 @@ const Home = () => {
                                    </div>
                                    <div className="bottom">
                                       <h5>Pamino Portfolio</h5>
-                                      <p>Web Design</p>
+                                      <p>Print Design</p>
                                    </div>
                                 </div>
                             </div>
@@ -210,7 +188,7 @@ const Home = () => {
                                    </div>
                                    <div className="bottom">
                                       <h5>HeadPhones</h5>
-                                      <p>Web Design</p>
+                                      <p>Print Design</p>
                                    </div>
                                 </div>
                                 <div className='container'>
@@ -234,32 +212,31 @@ const Home = () => {
                     <p className='p-skills'>Here Are Some of My Skills</p>
                     <div className='row'>
                         <div className='col-md-6'>
-                            <p className='s-title'>1 - GRAPHIC DESIGN</p>
+                            <p className='s-title'>1 -  PRODUCT BRANDING</p>
                             <ul>
-                                <li>UI Design</li>
-                                <li>Website & Digital Design</li>
-                                <li>Brading & Visual Identity</li>
-                                <li>Print Design</li>
+                                <li>Logo Designs </li>
+                                <li>T-Shirt Designs </li>
+                                <li>Poster and Flyers Design</li>
+                                <li>Business Cards</li>
                             </ul>
                         </div>
                         <div className='col-md-6'>
-                            <p className='s-title'>2 - ILLUSTRATION</p>
+                            <p className='s-title'>2 -  SIGN AND SIGNAGES </p>
                             <ul>
-                                <li>Editorial</li>
-                                <li>Narrative</li>
+                                <li>Directional Signs </li>
+                                <li>Window Graphics </li>
                                 <li>Motion Graphics</li>
-                                <li>Animation</li>
-                                <li>Visual Effects</li>
+                                <li>Offices Tag</li>
                             </ul>
                         </div>
                     </div>
                     <div className='row'>
                         <div className='col-md-6'>
-                            <p className='s-title'>3 - FRONT END DEVELOPMENT</p>
+                            <p className='s-title'>3 - BANNER AND LARGE FORMAT </p>
                             <ul>
-                                <li>HTML / CSS</li>
-                                <li>JS & JS Frameworks</li>
-                                <li>WordPress</li>
+                                <li>Billboard </li>
+                                <li>Gazebo Banner</li>
+                                <li>Flag Banner </li>
                             </ul>
                         </div>
                     </div>
