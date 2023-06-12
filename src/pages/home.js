@@ -321,7 +321,7 @@ const Home = () => {
        
         <div className='contact'>
             <h1>hello@teepixxel-creation.com</h1>
-            <p>+(234) 902 836 4518 / +(234) 905 266 2414</p>
+            <p>+(234) 813 362 2414 / +(234) 905 266 2414</p>
             <div className='address d-flex'>
                 <div>
                     <h3>/ WHERE TO FIND US</h3>
