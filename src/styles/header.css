@@ -3,6 +3,8 @@
     color: #FFFFFF;
     height: 100px;
     width: 100%;
+    position: fixed;
+    z-index: 5;
 }
 
 .navbar-nav {
@@ -31,6 +33,9 @@
 }
 .nav-link:hover {
     color: #6d8aac;
+}
+.navbar-toggler {
+    border: 2px solid #6d8aac;
 }
 @media all and (max-width: 480px) { 
     .navbar {

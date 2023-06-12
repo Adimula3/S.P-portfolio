@@ -7,7 +7,7 @@ import img4 from '../assets/print-work1.jpeg';
 import img5 from '../assets/pamino-portfolio.jpeg';
 import img6 from '../assets/print-work4.jpeg';
 import profile from '../assets/az-image.jpeg';
-import hand from '../assets/az-hand-og.jpeg';
+import hand from '../assets/Designer.png';
 import { useState } from 'react';
 import { useInView } from 'react-intersection-observer';
 import { motion } from "framer-motion";
@@ -44,7 +44,7 @@ const Home = () => {
             <div className='home-content'>
                 <div className='title-inner'>
                     <div className='cafe'>
-                        <div className='cafe-inner'><h1>Hello folks, we are <b className='animate__animated animate__zoomInDown'>Tee Pixxel Studio.</b></h1></div>
+                        <div className='cafe-inner'><h1>Hello folks, we are <b className='animate__animated animate__zoomInDown'>Tee Pixxel Creation.</b></h1></div>
                     </div>
                     <div className='mozart'>
                         <div className='mozart-inner'>
@@ -84,11 +84,23 @@ const Home = () => {
                <span>designs.</span>              
             </h2>
             
-            <motion.p>Welcome to our world of design-driven individuals who are passionate about creating stunning Graphic/UI and web designs that will help your business stand out.
-            We are a group of talented professionals who are dedicated to crafting unique and visually appealing designs that will make your brand shine in today's competitive digital landscape.
-            Our design process is collaborative and transparent, and we involve our clients at every stage to ensure that their feedback and ideas are incorporated into the final design.
-            We pride ourselves on delivering high-quality designs on time and within budget.
-            If you are looking for a team of talented and passionate designers who can help your business stand out in today's crowded digital space, look no further. Contact us today to learn more about how we can help you achieve your design goals and take your brand to the next level.
+            <motion.p>Tee Pixxel Creation is one of Nigeria’s most innovative Printing and Branding 
+                Company based in Abuja, Nigeria; duly registered with CAC as with (BN 6992826) Our 
+                designs are brilliant and our prints, very exclusive. We offer full range of printing 
+                and branding services to a wide range of clients operating across different industry sectors 
+                all across Nigeria and beyond. Tee Pixxel Creation is a One stop shop for all your printing needs; 
+                our custom made solutions are tailored specifically to meet your peculiar needs ensuring the best
+                output throughout the process. Join our happy customers who made Tee Pixxel Creation their most 
+                preferred printing destination in Nigeria. Let us earn your loyalty, give us a trial Today.
+                If you are looking for a team of talented and passionate designers who can help your business stand out
+                in today's crowded digital space, look no further. Contact us today to learn more about how we can 
+                help you achieve your design goals and take your brand to the next level.
+
+                Our project timeline is as important to us as our delivering excellence in print.  
+                From the design and print of Business Cards, Corporate Stationary, Display Banners, 
+                Signs and Displays, Stamps and Seals, Marketing Materials to the Branding of Vehicles, 
+                Clothing, Gifts and Souvenirs, we provide quality finishing using our cutting-edge printing
+                 technology. 
             </motion.p>
         </div>
         <div className='about'>
@@ -145,8 +157,8 @@ const Home = () => {
                      <div className=''>
                         <div className='row p-row'>
                             <div className='column'>
-                                <div className='container'>
-                                   <img src={img1}className="image"/>
+                                <div className='container ok'>
+                                   <img src={img1}className="image one"/>
                                    <div class="middle d-flex">
                                    
                                       <div class="text">Project Link</div>
@@ -157,7 +169,7 @@ const Home = () => {
                                    </div>
                                 </div>
                                 <div className='container'>
-                                   <img src={img4} className="image"/>
+                                   <img src={img4} className="image two"/>
                                    <div className="middle">
                                       <div className="text"><a href='https://www.instagram.com/p/CrjluJDNCFz/?igshid=NTc4MTIwNjQ2YQ=='>Project Link</a></div>
                                    </div>
@@ -308,24 +320,21 @@ const Home = () => {
        
        
         <div className='contact'>
-            <h1>hello@teepixxel-studio.com</h1>
-            <p>+(234) 813 362 9151 / +(234) 902 836 4518</p>
+            <h1>hello@teepixxel-creation.com</h1>
+            <p>+(234) 902 836 4518 / +(234) 905 266 2414</p>
             <div className='address d-flex'>
                 <div>
                     <h3>/ WHERE TO FIND US</h3>
-                    <p>1600 Abuja Gwagwlada
-                    Mountain View, CA
-                    Mountain View, CA
-                    </p>
+                    <p>SHOP D17 , Utc Area 10 Shopping Complex Abuja </p>
                     
                 </div>
                 <div className='socials'>
                     <h3>/ FOLLOW US</h3>
                     <div className='media d-flex'>
-                    <i class="fa-brands fa-instagram fa-beat"></i>
-                    <i class="fa-brands fa-facebook fa-beat"></i>
-                    <i class="fa-brands fa-twitter fa-beat"></i>
-                    <i class="fa-brands fa-google fa-beat"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-whatsapp"></i>
                     </div>
                 </div>
             </div>

@@ -570,14 +570,14 @@ hr {
 .portfolio .column .image {
     vertical-align: middle;
     width: 110%;
-     transition: 0.5s all ease-in-out;
+    transition: 0.5s all ease-in-out;
    
   }
   .portfolio .column .one {
     height: 527px;
   }
   .portfolio .column .two {
-    height: 345px; 
+    height: 349px; 
   }
   .container {
     position: relative;
@@ -608,6 +608,7 @@ hr {
   .bottom h5 {
     color: #000000;
     font-size: 17px;
+    font-weight: 600;
     margin-bottom: 8px;
     padding-bottom: 0;
   }
@@ -686,6 +687,7 @@ hr {
     height: 439px;
     background: #4F4F4F;
     font-family: 'Nunito', sans-serif;
+    border-radius: 10px;
 }
 .about h2 {
     width: 400px;
@@ -862,22 +864,29 @@ hr {
     font-size: 30px;
     padding: 10px 11px;
 }
-.fa-brands:hover {
-    color: #FFFFFF!important;
-
+.fa-instagram:hover {
+  color: #C13584!important;
 }
-
+.fa-facebook:hover {
+  color:#1877F2!important;
+}
+.fa-twitter:hover{
+  color: #1DA1F2!important;
+}
+.fa-whatsapp:hover {
+  color: #25D366!important;
+}
 
 
 
 
 
 .contacts {
-  padding: 0 20px 0 120px;
+  padding: 100px 20px 0 120px;
 }
 .contacts h2 {
   font-size: 3.5rem;
-  font-weight: 700; 
+  font-weight: 600; 
   font-family: 'Nunito', sans-serif;
 }
 .form {
@@ -912,9 +921,9 @@ form.border-right {
   margin-top: 30px;
   font-family: 'Nunito', sans-serif;
   border-radius: 50px!important;
-  padding: 10px;
   background: #6d8aac;
   border: none;
+  padding: 15px 10px 15px 10px!important;
 }
 .contacts-msg {
   padding-top: 200px;
@@ -940,7 +949,7 @@ form.border-right {
 }
 
 .services {
-  padding:  100px 0 0 100px;
+  padding:  100px 0 0 200px;
 }
 .services h1 {
   padding-bottom: 30px;
@@ -963,5 +972,6 @@ form.border-right {
   font-family: 'Nunito', sans-serif;
 }
 .services .skills-img {
-  height: 650px;
+  height: 550px;
+  border-radius: 10px;
 }
