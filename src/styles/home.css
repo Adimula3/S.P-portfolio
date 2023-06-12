@@ -629,10 +629,7 @@ hr {
     color: #FFFFFF;
   }
  
-  .container:hover .image {
-    opacity: 0.3;
-  }
-  
+
   .container:hover .middle {
     opacity: 1;
     cursor: pointer;
@@ -689,6 +686,7 @@ hr {
     background: #4F4F4F;
     font-family: 'Nunito', sans-serif;
     border-radius: 10px;
+    object-fit: cover;
 }
 .about h2 {
     width: 400px;

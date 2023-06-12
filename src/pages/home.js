@@ -3,7 +3,7 @@ import '../styles/home.css'
 import img1 from '../assets/print-7.jpeg';
 import img2 from '../assets/print-work2.jpeg';
 import img3 from '../assets/print-8.jpeg';
-import img4 from '../assets/print-9.jpeg';
+import img4 from '../assets/print-12.jpeg';
 import img5 from '../assets/print-10.jpeg';
 import img6 from '../assets/print-work4.jpeg';
 import profile from '../assets/s.p-bio.jpeg';
@@ -137,10 +137,7 @@ const Home = () => {
                             <div className='column'>
                                 <div className='container ok'>
                                    <img src={img1}className="image one"/>
-                                   <div class="middle d-flex">
-                                   
-                                      <div class="text">Project Link</div>
-                                   </div>
+                                
                                    <div className="bottom">
                                       <h5>My QrCard</h5>
                                       <p>Print Design</p>
@@ -148,9 +145,7 @@ const Home = () => {
                                 </div>
                                 <div className='container'>
                                    <img src={img4} className="image two"/>
-                                   <div className="middle">
-                                      <div className="text"><a href='https://www.instagram.com/p/CrjluJDNCFz/?igshid=NTc4MTIwNjQ2YQ=='>Project Link</a></div>
-                                   </div>
+                            
                                    <div className="bottom">
                                       <h5>Moto Padi</h5>
                                       <p>Brading & Visual Identity</p>
@@ -161,9 +156,7 @@ const Home = () => {
                             <div className='column'>
                                 <div className='container'>
                                    <img src={img2}className="image"/>
-                                   <div class="middle">
-                                      <div class="text"><a href='https://www.instagram.com/p/CqTt_8JNuT2/?igshid=NTc4MTIwNjQ2YQ=='>Project Link</a></div>
-                                   </div>
+                                   
                                    <div className="bottom">
                                       <h5>Queen Bee</h5>
                                       <p>Brading & Visual Identity</p>
@@ -171,9 +164,7 @@ const Home = () => {
                                 </div>
                                 <div className='container'>
                                    <img src={img5}className="image  one"/>
-                                   <div class="middle">
-                                      <div class="text"><a href='https://kolawoleolayinka.tech/'>Project Link</a></div>
-                                   </div>
+                                  
                                    <div className="bottom">
                                       <h5>Pamino Portfolio</h5>
                                       <p>Print Design</p>
@@ -183,9 +174,7 @@ const Home = () => {
                             <div className='column'>
                                 <div className='container'>
                                    <img src={img3}className="image one"/>
-                                   <div class="middle">
-                                      <div class="text"><a href='https://audiphile19.vercel.app/'>Project Link</a></div>
-                                   </div>
+                                   
                                    <div className="bottom">
                                       <h5>HeadPhones</h5>
                                       <p>Print Design</p>
@@ -193,9 +182,7 @@ const Home = () => {
                                 </div>
                                 <div className='container'>
                                    <img src={img6} className="image two"/>
-                                   <div class="middle">
-                                      <div class="text"><a href='https://www.instagram.com/p/CnNf0aUNVHT/?igshid=NTc4MTIwNjQ2YQ=='>Project Link</a></div>
-                                   </div>
+                                   
                                    <div className="bottom">
                                       <h5>LRS Family</h5>
                                       <p>Print Design</p>
