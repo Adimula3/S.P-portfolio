@@ -21,7 +21,7 @@ const Header = () => {
   }, []);
              useEffect(() => {
                 if (scrollPosition > 0) {
-                    setNavbarBackground('rgba(0, 0, 0, 0.48)'); // Replace 'your-color' with the desired background color
+                    setNavbarBackground('#101010'); // Replace 'your-color' with the desired background color
                     } else {
                       setNavbarBackground('transparent');
                             }
